@@ -1,0 +1,62 @@
+body {
+  margin: 30px;
+  width: 60%;
+}
+
+h1 {
+  padding-bottom: 15px;
+}
+
+hr {
+  border-style: dotted;
+  margin-top: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.fname {
+  width: 70px;
+}
+
+.lname {
+  width: 130px;
+}
+
+input {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+select {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  width: 350px;
+}
+
+legend {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+input.relation {
+  width: 200px;
+  margin-left: 20%;
+}
+
+.home {
+  float: left;
+  margin-right: 155px;
+}
+.home input {
+  width: 30px;
+}
+
+.work input {
+  width: 30px;
+}
+
+/*# sourceMappingURL=form-medical.css.map */

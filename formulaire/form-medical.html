@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="form-medical.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Emergency Contact and Medical Information</h1>
+    <hr>
+    <form action="">
+        <label for="name">Name</label><br>
+        <input class="fname" type="text" id="fname" name="fname"> <input class="lname" type="text" id="lname" name="lname"> <br>
+        <legend>First &emsp;&emsp;&emsp; Last</legend> 
+        <br>
+        <br>
+        <label for="Gender">Gender</label> <label style="margin-left: 40%" for="birth">date of birth</label><br>
+        <select id="Gender" name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select> <input style=" margin-left: 3%; width: 10px" type="text" name="birth"> / <input style="width: 10px" type="text" name="birth"> / <input style="width: 35px;" type="text" name="birth">
+        <br><legend style="margin-left: 46%">MM &emsp13; DD&emsp;&emsp13;YYYY </legend> 
+        <!-- <br><label for="birthday">birthday</label> <br> <input type="date" name="birthday"> -->
+        <hr>
+        
+        <h2>Emergency Contact</h2>
+        <label for="name">Name</label><label style="margin-left: 43%;" for="relation">Relationship</label> <br>
+        <input class="fname" type="text" id="fname" name="fname"> <input class="lname" type="text" id="lname" name="lname"><input class="relation" type="text" name="relation"> <br>
+        <legend>First &emsp;&emsp;&emsp; Last</legend> 
+        <br>
+        <label for="address">Address</label><br>
+        <input style="width: 71%" type="text" name="address"><br>
+        <legend>street address</legend> 
+        <input style="width: 71%" type="text" name="address"><br>
+        <legend>Address Line 2 </legend> 
+        <input style="width: 33.5%" type="text" name="City"> <input style="width: 33.5%; margin-left: 2%;" type="text" name="state/province/region"> <br>
+        <legend>City <span style="margin-left: 34%">State/province/region</span></legend> 
+        <input style="width: 33.5%" type="text"> 
+        <select style="width: 33.5%; margin-left: 2%;" type="text">
+            <option value=" "> </option>
+            <option value="Belgium">Belgium</option>
+        </select> <br>
+        <legend>Postal / Zip Code<spa style="margin: 26%">Country</span></legend> 
+        <br>
+        <div class="home">
+            <label for="home">Home Phone</label> <br>
+            <input type="text"> - <input type="text"> - <input type="text">
+            <legend>### &emsp;&emsp;### &emsp;&emsp;####</legend> 
+        </div>
+        <div class="work">
+            <label for="work">Work Phone</label> <br>
+            <input type="text"> - <input type="text"> - <input type="text">
+            <legend>### &emsp;&emsp;### &emsp;&emsp;####</legend> 
+        </div>
+        <br>
+        <hr> 
+        <h2>Medical Information</h2>
+        <label for="hospital">Hospital / Clinic Preference</label><br>
+        <input style="width: 71%" type="text" name="hospital"><br><br>
+        <label>Insurance <span style="margin-left: 29%">Policy Number</span></label> <br>
+        <input style="width: 33.5%" type="text" name="insurance"> <input style="width: 33.5%; margin-left: 2%;" type="text" name="policy"> <br><br>
+        <label>Physician's Name <span style="margin-left: 22%">Phone Number</span></label> <br>
+        <input style="width: 33.5%; float: left; margin-right: 20px;" type="text">
+        <div class="work"><input type="text"> - <input type="text"> - <input type="text"></div>
+        <legend style="padding-left: 38%">### &emsp;&emsp;### &emsp;&emsp;####</legend> 
+        <br>
+        <label for="Alergies">Alergies / Special Health Considerations</label><br>
+        <textarea style="height:200px; width: 71%"></textarea> <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
