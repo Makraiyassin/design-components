@@ -1,0 +1,16 @@
+.footer{
+    color: #b0aca4;
+    background-color: #f8f3e9;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    .copy { grid-area: 1 / 1 / 2 / 2; }
+    .link { grid-area: 1 / 4 / 2 / 5; }
+    .net { grid-area: 1 / 5 / 2 / 6; }
+    a{
+    margin-left: 5px;
+    color: #b0aca4;
+    text-decoration: none;
+    }
+}
+
