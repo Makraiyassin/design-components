@@ -1,0 +1,25 @@
+.footer{
+    color: #b0aca4;
+    background-color: #f8f3e9;
+    display: grid;
+    // display: inline-grid;
+    // grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    .copy {  
+        grid-column-start: 1;
+        grid-column-end: 11;
+    }
+    .link {  
+        grid-column-start: 11;
+        margin-left: 60%;
+    }
+    .net {  
+        grid-column-start: 12;
+    }
+    a{
+    margin-left: 10px;
+    color: #b0aca4;
+    text-decoration: none;
+    }
+}
+

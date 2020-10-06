@@ -1,0 +1,24 @@
+.footer {
+  color: #b0aca4;
+  background-color: #f8f3e9;
+  display: grid;
+  grid-column-gap: 0px;
+}
+.footer .copy {
+  grid-column-start: 1;
+  grid-column-end: 11;
+}
+.footer .link {
+  grid-column-start: 11;
+  margin-left: 60%;
+}
+.footer .net {
+  grid-column-start: 12;
+}
+.footer a {
+  margin-left: 10px;
+  color: #b0aca4;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
