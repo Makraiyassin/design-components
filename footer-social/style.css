@@ -2,20 +2,21 @@
   color: #b0aca4;
   background-color: #f8f3e9;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 0px;
 }
 .footer .copy {
-  grid-area: 1/1/2/2;
+  grid-column-start: 1;
+  grid-column-end: 11;
 }
 .footer .link {
-  grid-area: 1/4/2/5;
+  grid-column-start: 11;
+  margin-left: 60%;
 }
 .footer .net {
-  grid-area: 1/5/2/6;
+  grid-column-start: 12;
 }
 .footer a {
-  margin-left: 5px;
+  margin-left: 10px;
   color: #b0aca4;
   text-decoration: none;
 }
